@@ -1,5 +1,5 @@
-﻿Deskripsi Fitur
-cuaca_harian.csv
+# Deskripsi Fitur
+## cuaca_harian.csv
 * time – Tanggal pencatatan
 * temperature_2m_max (°C) – Temperatur udara tertinggi pada ketinggian 2 m di atas permukaan
 * temperature_2m_min (°C) – Temperatur udara terendah pada ketinggian 2 m di atas permukaan
@@ -14,14 +14,8 @@ cuaca_harian.csv
 * winddirection_10m_dominant (°) – Arah angin dominan pada hari tersebut
 * city – Nama kota yang tercatat
 * class – Jenis/kelompok curah hujan harian
-cuaca_jaman.csv
-      
-    
 
-
-    
-
-
+## cuaca_jaman.csv
 * time – Tanggal dan jam pencatatan
 * temperature_2m (°C) – Temperatur pada ketinggian 2 m
 * relativehumidity_2m (%) – Kelembapan pada ketinggian 2 m
@@ -55,7 +49,7 @@ cuaca_jaman.csv
 * city – Nama kota
 
 
-RQ:
-1. Bagaimana hubungan ke empat kolom mengenai `soil_moisture` dengan jumlah curah hujan harian? *soil_moisture kalo diambil difference lalu dikalikan dengan bobot dapat memiliki distribusi yang mirip dengan curah hujan
-2. Kota mana saja yang dekat secara geografis? * dari curah hujan, kota si(singaraja) dan u(ubud) memiliki kemiripan
-3. Jika data di atas merupakan data yang nyata, berada di daerah manakah kota q? *q(qeqertat) merupakan daerah di greenland. Hasil ini bisa diperoleh berdasarkan daerah yang tidak disinari matahari pada interval tanggal yang memiliki sunrise dan sunset
+# RQ:
+1. **Bagaimana hubungan ke empat kolom mengenai `soil_moisture` dengan jumlah curah hujan harian?** *soil_moisture kalo diambil difference lalu dikalikan dengan bobot dapat memiliki distribusi yang mirip dengan curah hujan
+2. **Kota mana saja yang dekat secara geografis?** * dari curah hujan, kota si(singaraja) dan u(ubud) memiliki kemiripan
+3. **Jika data di atas merupakan data yang nyata, berada di daerah manakah kota q?** *q(qeqertat) merupakan daerah di greenland. Hasil ini bisa diperoleh berdasarkan daerah yang tidak disinari matahari pada interval tanggal yang memiliki sunrise dan sunset
